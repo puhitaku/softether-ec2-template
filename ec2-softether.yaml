@@ -6,12 +6,12 @@ Parameters:
 
   InstanceType:
     Type: String
-    Default: t3.nano
+    Default: t3a.nano
 
   ImageId:
     Type: AWS::EC2::Image::Id
     Description: AMI must be Amazon Linux 2.
-    Default: ami-009d6802948d06e52
+    Default: ami-052652af12b58691f  # amzn2-ami-hvm-2.0.20200304.0-x86_64-gp2
 
   VolumeSize:
     Type: Number
@@ -50,7 +50,7 @@ Parameters:
 
   SoftetherSourceUrl:
     Type: String
-    Default: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.25-9656-rtm/softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-x64-64bit.tar.gz
+    Default: https://github.com/SoftEtherVPN/SoftEtherVPN_Stable/releases/download/v4.29-9680-rtm/softether-vpnserver-v4.29-9680-rtm-2019.02.28-linux-x64-64bit.tar.gz
 
 Metadata:
   AWS::CloudFormation::Interface:
