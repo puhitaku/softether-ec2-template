@@ -18,3 +18,7 @@ deploy:
 		--parameters ParameterKey=KeyName,ParameterValue=$(KEY_NAME) \
 		             ParameterKey=VpcId,ParameterValue=$(VPC_ID) \
 					 ParameterKey=SubnetId,ParameterValue=$(SUBNET_ID)
+
+.PHONY:
+delete:
+	@aws cloudformation delete-stack --stack-name softether
