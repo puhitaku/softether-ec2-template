@@ -6,7 +6,7 @@ Parameters:
 
   InstanceType:
     Type: String
-    Default: t3a.nano
+    Default: t3.nano
 
   ImageId:
     Type: AWS::EC2::Image::Id
