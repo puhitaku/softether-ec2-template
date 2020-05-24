@@ -11,7 +11,7 @@ Parameters:
   ImageId:
     Type: AWS::EC2::Image::Id
     Description: AMI must be Amazon Linux 2.
-    Default: ami-052652af12b58691f  # amzn2-ami-hvm-2.0.20200304.0-x86_64-gp2
+    Default: ami-052652af12b58691f  # amzn2-ami-hvm-2.0.20200304.0-x86_64-gp2 at ap-northeast-1
 
   VolumeSize:
     Type: Number
